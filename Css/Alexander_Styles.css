@@ -23,6 +23,8 @@
   --Ghost: #6C4E82;
 
   --AFW: #EFEFEF;
+
+  --easeSec: 2s;
 }
 * {
   box-sizing: border-box;
@@ -43,6 +45,7 @@ height: 35rem;
 background-color: rgb(116,203,72);
 border-radius: 8px;
 padding: 0.3rem;
+transition: var(--easeSec) ease-in-out;
 }
 
 #top {
@@ -111,6 +114,7 @@ padding: 0.3rem;
 }
 #data h4 {
   text-align: center;
+  transition: var(--easeSec) ease-in-out;
 }
 
 #stats {
@@ -131,6 +135,7 @@ padding: 0.3rem;
   text-align: right;
   padding-right: 0.5rem;
   border-right: 1px solid rgb(116, 203, 72);
+  transition: var(--easeSec) ease-in-out;
 }
 .stat-number {
   padding-left: 0.5rem;
@@ -152,22 +157,28 @@ padding: 0.3rem;
   display: flex;
   border-radius: 4px;
   overflow: hidden;
+  transition: var(--easeSec) ease-in-out;
 }
 .bar-inner {
   background: rgb(116, 203, 72);
   width: 45%;
+  transition: var(--easeSec) ease-in-out;
 }
 #TotalDesc {
   color: rgb(164, 062, 158);
+  transition: var(--easeSec) ease-in-out;
 }
 #inner-total {
   background-color: rgb(164, 062, 158);
+  transition: var(--easeSec) ease-in-out;
 }
 #outer-total {
   background-color: rgb(173, 113, 201);
+  transition: var(--easeSec) ease-in-out;
 }
 #TotalDesc {
   color: rgb(164, 062, 158);
+  transition: var(--easeSec) ease-in-out;
 }
 
 
