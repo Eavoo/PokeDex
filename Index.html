@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="Css/Alexander_Styles.css">
     <link rel="shortcut icon" href="Assets/pokeball.png">
   </head>
-  <body style="Background: rgb(173, 113, 201);" id="pkbody">
+  <body style="Background: rgb(173, 113, 201); transition: var(--easeSec) ease-in-out;" id="pkbody">
     <div id="Pokedex">
       <div id="top">
         <div id="top-bar">
@@ -112,8 +112,8 @@
         </div>
       </div>
     </div>
-    <div id="Stat-forms" style="width: 22rem; height: 35rem; background-color: rgb(116,203,72); border-radius: 8px; padding: 0.3rem; margin-left:5rem; display:none;">
-      <div style="background: var(--AFW); width:100%; height:100%; border-radius: 8px; overflow-y: scroll; text-align:center;   scrollbar-color: rgb(116,203,72) #00000000;" id="StFormsInner">
+    <div id="Stat-forms" style="width: 22rem; height: 35rem; background-color: rgb(116,203,72); border-radius: 8px; padding: 0.3rem; margin-left:5rem; display:none;transition: var(--easeSec) ease-in-out;">
+      <div style="background: var(--AFW); width:100%; height:100%; border-radius: 8px; overflow-y: scroll; text-align:center;   scrollbar-color: rgb(116,203,72) #00000000; transition: var(--easeSec) ease-in-out;" id="StFormsInner">
         <h1 style="font-size:1.5em;" id="scfHea">Stat Changing Forms:</h1> <!-- NOTE: Put in Credits For MissingNo, This line here will need it's own ID so that You can replace it with "Credits, THX" -->
         <h1 style="font-size:1.5em; color:rgb(104, 160, 144); font-weight:bolder;" id="credHea">Credits:</h1>
 
@@ -768,44 +768,6 @@
           <p class="Credits pkmnFormz" style="display:block;">"Bishaaan"</p>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- ---------------------------------------------------------EXTERNAL JS------------------------------------------------------------------------------------ -->
       <script src="Js/Script.js"></script>
   </body>
